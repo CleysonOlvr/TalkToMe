@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Button from "./Button";
 import { Input } from "./Input";
-import { Join } from "./Join";
-import { Create } from "./Create";
+import Join from "./Join";
+import Create from "./Create";
 
 export function FormWrapper() {
   const [selectedRoom, setSelectedRoom] = useState<"join" | "create">("join");
