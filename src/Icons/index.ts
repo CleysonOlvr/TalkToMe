@@ -2,5 +2,8 @@ export { default as Camera } from "./Camera";
 export { default as Computer } from "./Computer";
 export { default as Logo } from "./Logo";
 export { default as Microphone } from "./Microphone";
+export { default as NoCamera } from "./NoCamera";
+export { default as NoComputer } from "./NoComputer";
+export { default as NoMicrophone } from "./NoMicrophone";
 export { default as Phone } from "./Phone";
 export { default as TalkToMe } from "./TalkToMe";
